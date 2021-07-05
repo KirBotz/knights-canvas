@@ -13,4 +13,7 @@ module.exports.Lickanime = require('./src/linz/Lick');
 module.exports.Burnsp = require('./src/linz/Burn');
 module.exports.Welcome = require('./src/greetings/Welcome');
 module.exports.Goodbye = require('./src/greetings/Goodbye');
+module.exports.Promote = require('./src/greetings/Promote');
+module.exports.Demote = require('./src/greetings/Demote');
+module.exports.Verification = require('./src/greetings/Verification');
 
