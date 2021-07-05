@@ -1,11 +1,11 @@
 const Greeting = require("./Base");
 
-module.exports = class Demote extends Greeting {
+module.exports = class Promote extends Greeting {
     constructor() {
         super();
-        this.textTitle = "DEMOTE";
+        this.textTitle = "PROMOTE";
         this.textMessage = "{server}";
         this.colorTitle = "#df0909";
-        this.assent = `${__dirname}/../../assets/img/demote.png`;
+        this.assent = `${__dirname}/../../assets/img/promote.png`;
     }
 };
